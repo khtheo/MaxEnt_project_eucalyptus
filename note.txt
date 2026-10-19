@@ -1,3 +1,5 @@
+First Use of MaxEnt -> how do gather data from species, data processing (subsample & file extension), what's and how to work with bioclim data. Sensibilisation on climate change.
+
 Species:
 
 eucalyptus
@@ -17,3 +19,25 @@ Bio15 — Saisonnalité des précipitations : Évalue la régularité des pluies
 2081-2100 : 
 
 ACCESS-CM2 - SSP585 - bc (bioclimatic var)
+
+
+Partie Recherche : 
+Après avoir réfléchis, j'effectue ce projet au cours d'un cours d'IA et de Changement Climatique, donc j'ai décidé de travailler sur des datasets d'espèces vivantes qui vont certainement être impacté par celui-ci, c'est donc pour cela que j'ai penché sur le Koala, le Petauroides et les eucalyptus qui sont des arbres dans lesquelles ces 2 autres espèces vivent.
+
+Partie Récupération de data : 
+
+Récupération des datasets sur les eucalyptus, koala et petauroides depuis GBIF,
+Choix de sélection de données afin de rendre le téléchargement moins couteux,
+Récupération des données suivi d'un subsample (par prompt python) afin de jouer avec un jeu de données moins couteux
+
+Récupération de donnée bioclim depuis le site WorldClim,
+Au présent : Historical climate data - Bioclimatic variables - bio 10m
+récupération des données que nous allons utiliser Bio 1,5,6,12,14,15 .tif
+Au futur : Future climate data - 10 minutes - 2081-2100 - ACCESS-CM2 - ssp885 - bc
+récupération des données que nous allons utiliser via un prompt python permettant de récupérer Bio 1,5,6,12,14,15 .tif
+conversion de toutes ces données sous le format .asc par prompt python
+
+Prompt :
+tif_to_asc.py
+subsample.py
+bc_future_split_var.py
