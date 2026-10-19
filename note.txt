@@ -1,0 +1,16 @@
+Species:
+
+eucalyptus
+koala
+petauroides
+
+
+Bioclimatical variable : 
+
+Bio1 — Température moyenne annuelle : Définit les limites physiologiques.
+Bio5 — Température maximale du mois le plus chaud : Très critique pour le Koala et le Planeur (au-delà de 35-40 °C prolongés, ils souffrent du stress thermique direct).
+Bio6 — Température minimale du mois le plus froid : Détermine les limites en altitude/latitude.
+Bio12 — Précipitations annuelles : La qualité et la teneur en eau des feuilles d'Eucalyptus en dépendent.   
+Bio14 — Précipitations du mois le plus sec : Indice clé de risque de sécheresse.
+Bio15 — Saisonnalité des précipitations : Évalue la régularité des pluies sur l'année.
+
