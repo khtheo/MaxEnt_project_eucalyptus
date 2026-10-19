@@ -1,0 +1,6 @@
+#Ignored folders:
+old_data/
+maxent/
+maxent_results/
+#Ignored files:
+.git
