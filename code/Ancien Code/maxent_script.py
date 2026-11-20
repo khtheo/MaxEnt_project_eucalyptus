@@ -36,8 +36,8 @@ for species in species_list:
             "autorun",
             "outputformat=logistic",
             "randomseed=true"
-            # "replicas=5", # Validation croisée (folds) demandée par le sujet
-            # "replicatype=crossvalidate"
+            "replicas=5", # Validation croisée (folds) demandée par le sujet
+            "replicatype=crossvalidate"
         ]
         
         print(f"Exécution de MaxEnt pour : {exp_name}")

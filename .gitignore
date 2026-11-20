@@ -2,5 +2,6 @@
 old_data/
 maxent/
 maxent_results/
+old_project_jar/
 #Ignored files:
 .git

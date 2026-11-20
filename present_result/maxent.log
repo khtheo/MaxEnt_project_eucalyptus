@@ -1,0 +1,43 @@
+Thu Oct 29 17:51:56 CET 2026
+MaxEnt version 3.4.4
+Checking header of C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present\wc2.1_10m_bio_1.asc
+Checking header of C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present\wc2.1_10m_bio_12.asc
+Checking header of C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present\wc2.1_10m_bio_14.asc
+Checking header of C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present\wc2.1_10m_bio_15.asc
+Checking header of C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present\wc2.1_10m_bio_5.asc
+Checking header of C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present\wc2.1_10m_bio_6.asc
+Reading samples from petauroides.csv
+Read samples: max memory 3799515136, total allocated 289406976, free 166971400, used 122435576, increment -78069080
+Extractor: max memory 3799515136, total allocated 289406976, free 161819400, used 127587576, increment 5152000
+Extracting random background and sample data
+2332800 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=C:\Users\THEO\Documents\Projet\PROJET_kaliptus\present_result samplesfile=C:\Users\THEO\Documents\Projet\PROJET_kaliptus\occurences\petauroides.csv environmentallayers=C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present
+Species: Petauroides_volans
+Layers: wc2.1_10m_bio_1 wc2.1_10m_bio_12 wc2.1_10m_bio_14 wc2.1_10m_bio_15 wc2.1_10m_bio_5 wc2.1_10m_bio_6
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: C:\Users\THEO\Documents\Projet\PROJET_kaliptus\present_result
+samplesfile: C:\Users\THEO\Documents\Projet\PROJET_kaliptus\occurences\petauroides.csv
+environmentallayers: C:\Users\THEO\Documents\Projet\PROJET_kaliptus\bioclimatic_var_present
+
+getSamples: max memory 3799515136, total allocated 289406976, free 152356208, used 137050768, increment 9463192
+Making features
+makeFeatures: max memory 3799515136, total allocated 289406976, free 149296760, used 140110216, increment 3059448
+Petauroides_volans: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1106 samples
+Density: max memory 3799515136, total allocated 289406976, free 141558856, used 147848120, increment 7737904
+linearPredictor: max memory 3799515136, total allocated 289406976, free 141558856, used 147848120, increment 0
+FeaturedSpace: max memory 3799515136, total allocated 289406976, free 141558856, used 147848120, increment 0
+Sequential: max memory 3799515136, total allocated 289406976, free 141558856, used 147848120, increment 0
+Initial loss: 9.314880551250107
+Time since start: 7.112
+500: time = 6,147000 loss = 7,301040
+Resulting gain: 2.0138407624548824
+Projecting...
+Writing file C:\Users\THEO\Documents\Projet\PROJET_kaliptus\present_result\Petauroides_volans.asc
+Time since start: 16.32
+Writing C:\Users\THEO\Documents\Projet\PROJET_kaliptus\present_result\plots\Petauroides_volans.png
+Time since start: 17.871
+Ending
